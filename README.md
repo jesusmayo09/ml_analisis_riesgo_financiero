@@ -68,3 +68,23 @@ Al eliminar la variable "Estrato", el accuracy del modelo cambia de 84% a 85%, l
 - La variable "Estrato" tiene poco impacto en la capacidad predictiva del modelo
 - Por razones éticas, podría ser deseable eliminarla para evitar discriminación socioeconómica
 - Sin sacrificar significativamente el desempeño, el banco podría implementar una política más justa
+
+---
+
+## 📊 Resultados Esperados
+
+### Métricas del Modelo Base
+```
+Accuracy:     ~85%
+Precision:    ~85-86%
+Recall:       ~72-93%
+F1-Score:     ~79-88%
+```
+
+### Coeficientes Principales
+| Variable | Coeficiente | Interpretación |
+|----------|------------|----------------|
+| Score | Positivo | Mayor score → Mayor probabilidad de pago |
+| Ingresos_SMMLV | Positivo | Mayores ingresos → Más confiabilidad |
+| Monto_Millones | -1.32 (Negativo) | Montos altos → Mayor riesgo |
+| Estrato | Variable | Impacto limitado en predicción |
