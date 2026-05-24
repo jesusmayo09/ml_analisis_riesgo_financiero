@@ -88,3 +88,14 @@ F1-Score:     ~79-88%
 | Ingresos_SMMLV | Positivo | Mayores ingresos → Más confiabilidad |
 | Monto_Millones | -1.32 (Negativo) | Montos altos → Mayor riesgo |
 | Estrato | Variable | Impacto limitado en predicción |
+
+---
+
+## ⚖️ Consideraciones Éticas
+
+Este proyecto aborda importantes cuestiones sobre equidad en IA:
+
+- **Sesgo algorítmico**: Variables socioeconómicas pueden perpetuar discriminación
+- **Fairness**: Es importante evaluar si el modelo afecta desigualmente a grupos demográficos
+- **Transparencia**: Las predicciones deben ser interpretables para justificar decisiones
+- **Responsabilidad**: El banco debe considerar el impacto social de sus modelos
