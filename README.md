@@ -1,5 +1,24 @@
-# ML para Analisis de Riesgo Financiero
-## Regresion Logistica Multivariable y Preprocesamiento
+# ML para Análisis de Riesgo Financiero
+## Regresión Logística Multivariable y Preprocesamiento
+
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Python](https://img.shields.io/badge/python-3.7+-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+---
+
+## 📋 Descripción del Proyecto
+
+Este proyecto implementa un modelo de **Regresión Logística Multivariable** para analizar y predecir el riesgo financiero en solicitudes de crédito. El modelo fue entrenado con datos de clientes colombianos y utiliza técnicas de preprocesamiento avanzado incluyendo normalización y codificación de variables categóricas.
+
+### Objetivo Principal
+Desarrollar un modelo predictivo que determine la probabilidad de que un cliente pague o incumpla con un crédito, considerando variables como:
+- **Score crediticio** (300-950)
+- **Ingresos** (en términos de SMMLV)
+- **Monto del crédito** (en millones)
+- **Edad del cliente**
+- **Estrato socioeconómico**
+- **Nivel educativo**
 
 ### Reto del Lab
 
